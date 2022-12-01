@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "compactscrollview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stateman92/CompactScrollView",
+      "state" : {
+        "revision" : "c0029c0df94c6ca22d9595988307ed4cc96c2c28",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
