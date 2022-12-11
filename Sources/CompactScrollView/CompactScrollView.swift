@@ -5,6 +5,7 @@
 //  Created by Kristof Kalai on 2022. 12. 01..
 //
 
+import SizePreferenceKey
 import SwiftUI
 
 public struct CompactScrollView<Content: View> {
@@ -24,9 +25,7 @@ extension CompactScrollView: View {
     public var body: some View {
         ScrollView(axes, showsIndicators: showsIndicators) {
             content()
-                .readSize {
-                    contentSize = $0
-                }
+                .storeSize(in: $contentSize)
         }
         .frame(maxWidth: contentSize.width, maxHeight: contentSize.height)
         .readSize {
