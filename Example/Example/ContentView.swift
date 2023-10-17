@@ -18,7 +18,7 @@ struct ContentView: View {
                     CompactScrollView {
                         Rectangle()
                             .fill(.green)
-                            .frame(width: 100, height: 100)
+                            .frame(height: 100)
                     }
 
                     Spacer()
@@ -27,7 +27,7 @@ struct ContentView: View {
                 CompactScrollView {
                     Rectangle()
                         .fill(Color.blue)
-                        .frame(width: 100, height: 1000)
+                        .frame(height: 1000)
                 }
             }
 

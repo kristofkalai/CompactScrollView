@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stateman92/CompactScrollView",
       "state" : {
-        "revision" : "43266466abb6f1b7dc38aee912c9a82c45df04a8",
-        "version" : "0.0.2"
+        "revision" : "098ba6829b21ce4f288f7f1b58fe990c93c3fc16",
+        "version" : "0.0.5"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stateman92/SizePreferenceKey.git",
       "state" : {
-        "revision" : "b2189e367f0cabcecccfa56c66e6ff4e444bdc37",
-        "version" : "0.0.2"
+        "revision" : "fe4d8b2caae6dda8742f7c423a4737fce45579bb",
+        "version" : "0.0.4"
       }
     }
   ],
