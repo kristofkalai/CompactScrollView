@@ -45,7 +45,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        // WARNING: on the preview the bounce is always turned off
         ContentView()
     }
 }

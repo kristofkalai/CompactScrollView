@@ -6,7 +6,7 @@ ScrollView learnt to wrap its content! 😮‍💨
 Add the following to `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/stateman92/CompactScrollView", exact: .init(0, 0, 2))
+.package(url: "https://github.com/stateman92/CompactScrollView", exact: .init(0, 0, 4))
 ```
 
 [Or add the package in Xcode.](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app)
